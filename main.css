@@ -42,14 +42,18 @@ p {
   padding: 5px;
 }
 
-.hover{
+
+
+.question:hover {
   background-color: #e8d284;
 }
-.wrong{
-  border: #db6f6f;
+.wrong:active {
+  border: 2px solid red;
+  background-color: #fff;
   font: #db6f6f;
 }
-.correct{
-  border: #56a589;
+.correct:active {
+  border: 2px solid #56a589;
+  background-color: #fff;
   font: #56a589;
 }
